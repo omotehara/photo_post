@@ -2,6 +2,8 @@
 授業で作成した私用メアドのアカウントが使用量を超えたので、そこで作ったデータをファイルにして学校のメアドアカウントに移動させてます。
 
 
+ファイルから移動、更新ボタン、投稿編集とかが効かない
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
