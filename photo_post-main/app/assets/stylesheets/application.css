@@ -1,0 +1,66 @@
+/* 画面全体の余白リセット */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* 共通メニュー（青いヘッダー） */
+.navbar {
+  background-color: #0055ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.navbar button:hover {
+  text-decoration: underline;
+}
+
+/* メインコンテンツの中央寄せ（完成イメージの配置） */
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* フォームの入力欄をラベルの下に配置する共通設定 */
+.field {
+  margin-bottom: 12px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* チェックボックスだけは横並びにする */
+.field input[type="checkbox"] + label {
+  display: inline;
+}
+
+.actions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
